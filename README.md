@@ -13,7 +13,7 @@ Geliştirici: Ahmet Şahin
 
 **Geleneksel veresiye defterlerini rafa kaldıran, offline çalışan, çoklu para birimi destekli ve güvenli mobil cari takip platformu.**
 
-[Proje Hakkında](#proje-hakkında-) • [Özellikler](#temel-özellikler-) • [Teknolojiler](#teknolojiler-) • [Mimari](#mimari-) • [Kurulum](#kurulum-) • [Ekran Görüntüleri](#ekran-görüntüleri-)
+[Proje Hakkında](#proje-hakkında-) • [Özellikler](#temel-özellikler-) • [Teknolojiler](#teknolojiler-) • [Mimari](#mimari-) • [Kurulum](#kurulum-) 
 
 </div>
 
