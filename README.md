@@ -198,6 +198,16 @@ npx expo start
 - `musteriler_{username}` — kullanıcıya özel izole cari veriler
 
 ---
+### Ekran Görüntüleri
+
+![Uygulama Giriş Ekran](assets/images/giris.jpeg)
+![Uygulama Kayıt Ekran](assets/images/kayit.jpeg)
+![Uygulama Ana Ekran](assets/images/anasayfa.jpeg)
+![Uygulama Firma Ekran](assets/images/firma.jpeg)
+![Uygulama Musteri Ekran](assets/images/musteri.jpeg)
+![Uygulama Musteri Oluşturma Ekran](assets/images/musteriolustur.jpeg)
+![Uygulama Musteri Bakiye Ekran](assets/images/musteribakiye.jpeg)
+![Uygulama Firma Bakiye Ekran](assets/images/firmabakiye.jpeg)
 
 <div align="center">
 
