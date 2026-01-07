@@ -257,9 +257,9 @@ export default function CustomerDetailScreen() {
   const renderItem = ({ item }: { item: any }) => {
     let titleText = '';
     if (item.type === 'borc') {
-        titleText = isSupplier ? 'Mal/Hizmet Alımı' : 'Borç Eklendi';
+        titleText = isSupplier ? 'Ödeme Yapıldı' : 'Borç Eklendi';
     } else {
-        titleText = isSupplier ? 'Ödeme Yapıldı' : 'Ödeme Alındı';
+        titleText = isSupplier ? 'Mal Alımı' : 'Ödeme Alındı';
     }
 
     return (
