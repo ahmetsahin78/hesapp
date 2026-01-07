@@ -286,9 +286,9 @@ export default function CustomerDetailScreen() {
 
   const getModalTitle = () => {
       if (isDebt) {
-          return isSupplier ? `Mal/Hizmet Alımı Ekle (${getSymbol()})` : `Borç Ekle (${getSymbol()})`;
+          return isSupplier ? `Tedarikçiye Ödeme Yap (${getSymbol()})` : `Borç Ekle (${getSymbol()})`;
       } else {
-          return isSupplier ? `Tedarikçiye Ödeme Yap (${getSymbol()})` : `Müşteriden Ödeme Al (${getSymbol()})`;
+          return isSupplier ? `Mal/Hizmet Alımı Ekle (${getSymbol()})` : `Müşteriden Ödeme Al (${getSymbol()})`;
       }
   };
 
@@ -337,7 +337,7 @@ export default function CustomerDetailScreen() {
         >
             <Ionicons name="add-circle" size={24} color="white" />
             <Text style={styles.btnText}>
-                {isSupplier ? 'MAL ALIMI EKLE' : 'BORÇ EKLE'}
+                {isSupplier ? 'ÖDEME YAP' : 'BORÇ EKLE'}
             </Text>
         </Pressable>
         
@@ -347,7 +347,7 @@ export default function CustomerDetailScreen() {
         >
             <Ionicons name="remove-circle" size={24} color="white" />
             <Text style={styles.btnText}>
-                {isSupplier ? 'ÖDEME YAP' : 'ÖDEME AL'}
+                {isSupplier ? 'MAL ALIMI EKLE' : 'ÖDEME AL'}
             </Text>
         </Pressable>
       </View>
